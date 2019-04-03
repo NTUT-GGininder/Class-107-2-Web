@@ -103,6 +103,11 @@ header{
     color: #EDF2C5;
     
 }
+.main_image
+{
+    width:940px;
+    height: 448px;
+}
 .main{
     width: 940px;
     height: 200px;
