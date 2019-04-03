@@ -138,16 +138,16 @@ header{
 }
 .vegetables_img
 {
-    width: 140;
-    height: 140;
+    width: 140px;
+    height: 140px;
     margin-right: 12px;
     margin-left: 0px;
     float: left;
 }
 .vegetables_img_last
 {
-    width: 140;
-    height: 140;
+    width: 140px;
+    height: 140px;
     margin: 0;
     float: left;
 }
@@ -219,6 +219,7 @@ footer{
     height: 60px;
     text-align: center;
     background-color: #778A50;
+    margin-bottom: 0px;
 }
 .footer_word{
     font-size: 12px;
