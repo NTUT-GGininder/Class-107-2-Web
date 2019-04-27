@@ -1,0 +1,247 @@
+body
+{
+    height: auto;
+    margin: 0 auto;
+}
+
+/* header style */
+
+header
+{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    background: radial-gradient(#FFFBEB, #ffd700);
+    
+}
+header img
+{
+    width: 20%;
+    margin: 0 46px;
+}
+header nav
+{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+header nav ul
+{
+    width: calc(100%/5);
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+header nav ul a
+{
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.icon
+{
+    width: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 46px;
+}
+.FB_share
+{
+    display: block;
+    background-image: url("../img/facebook-logo.svg");
+    background-repeat: no-repeat;
+    background-size: 48px;
+    width: 48px;
+    height: 48px;
+}
+.Twitter_share
+{
+    display: block;
+    background-image: url("../img/Twitter_icon.svg");
+    width: 48px;
+    height: 48px;
+    background-size: 100% 100%;
+
+}
+/* main style */
+main
+{
+    width: 100%;
+    padding: 0;
+}
+main img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+main ul
+{
+    display: flex;
+    background-image: url("../img/bg_menu01.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 120px;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    height: auto;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+main ul li
+{
+    
+    list-style: none;
+    width: calc(100%/3);
+    padding: 0;
+    margin: 0 46px;
+}
+main ul li button
+{
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    color: #bf9000;
+    border: none;
+    font-size: 60px;
+}
+.option_display
+{
+    display: block;
+    background-image: url("../img/menu_bg_smp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: -10px 0;
+    padding: 0;
+}
+.character
+{
+    display: flex;
+    width: 100%;
+}
+.right_arrow
+{
+    width: 42px;
+    height: 85px;
+    background: rgba(255, 255, 255, 0.1);
+    background-image: url("../img/arrow.png");;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    border: none;
+    display: block;
+    transform: rotate(3.14159rad);
+    margin: auto 46px auto 0;
+}
+.left_arrow
+{
+    width: 45px;
+    height: 85px;
+    background: rgba(255, 255, 255, 0.1);
+    display: block;
+    background-image: url("../img/arrow.png");
+    background-size: cover;
+    border: none;
+    margin: auto 0 auto 46px;
+}
+.GIOGIO
+{
+    display: flex;
+    width:  90%;
+    height: auto;
+    margin: 15px;
+}
+.right_side
+{
+    width: 55%;
+    margin: 15px;
+}
+.text_area
+{
+    display: block;
+    background-image: url("../img/character_01.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    padding: 40px;
+    margin: 15px;
+    background-size:100% 100%;
+
+}
+.text_area h1
+{
+    font-family: monospace;
+    font-size: 60px;
+    /* font-weight: bold; */
+    color:white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ECC985;
+    margin:0;
+}
+.text_area h2
+{
+    font-size: 40px;
+    color:#D0217D;
+    margin:0;
+}
+.text_area p
+{
+    margin:0;
+}
+.left_side
+{
+    position: relative;
+    width: 45%;
+    display: flex;
+    margin: 15px;
+    justify-content:center; 
+}
+.people
+{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin: 15px auto;
+    z-index: 2;
+}
+.stand
+{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    margin: 15px auto;
+    z-index: 1;
+}
+/* footer style */
+footer
+{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    padding: 15px 0;
+}
+footer div
+{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+footer img
+{
+    width: 48px;
+    height: auto;
+    margin-right: 15px;
+}
+footer p
+{
+    font-size: 13px;
+    color: white;
+}
