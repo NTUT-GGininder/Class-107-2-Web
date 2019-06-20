@@ -1,0 +1,10 @@
+[0605/205856.364:ERROR:settings.cc(266)] Settings version is not 1
+[0606/075905.686:ERROR:settings.cc(266)] Settings version is not 1
+[0606/130428.125:ERROR:settings.cc(266)] Settings version is not 1
+[0607/090112.814:ERROR:settings.cc(266)] Settings version is not 1
+[0607/154318.950:ERROR:settings.cc(266)] Settings version is not 1
+[0613/103626.294:ERROR:settings.cc(266)] Settings version is not 1
+[0615/150350.646:ERROR:main_dll_loader_win.cc(136)] Failed to load Chrome DLL from C:\Program Files (x86)\Applemy\Application\58.0.3029.110\chrome.dll: 找不到指定的模組。 (0x7E)
+[0615/150408.701:ERROR:main_dll_loader_win.cc(136)] Failed to load Chrome DLL from C:\Program Files (x86)\Applemy\Application\58.0.3029.110\chrome.dll: 找不到指定的模組。 (0x7E)
+[0615/150410.550:ERROR:main_dll_loader_win.cc(136)] Failed to load Chrome DLL from C:\Program Files (x86)\Applemy\Application\58.0.3029.110\chrome.dll: 找不到指定的模組。 (0x7E)
+[0616/082003.971:ERROR:settings.cc(266)] Settings version is not 1
