@@ -1,0 +1,141 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>參加民調</title>
+    <!-- <link rel="stylesheet"href="css/style.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vote.css">
+    <meta name = "viewport" content="width = device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">種舔新聞</a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../home/home.html">首頁 </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../vote/vote.html">參加民調</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Candidate/Candidate1.html">候選人1</a>
+              </li>
+            <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="../Candidate/Candidate2.html">候選人2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Candidate/Candidate3.html">候選人3</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="../aboutnews/aboutnews.html">相關新聞</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../aboutus/aboutus.html">關於我們</a>
+              </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>  
+        </nav>
+    </header>
+
+    <section class="pricing py-5">
+        <div class="container">
+          <div class="row ">
+            <!-- Free Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">韓國瑜</h5>
+                  <img class="card-price text-center candiate" src="./img/p1.jpg">
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>F1 進駐台灣</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>迪士尼蓋在高雄</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>貨出的去高雄發大財</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>補5000坑洞路平</li>
+                    <li><span class="fa-li"><i class="fas fa-times"></i></span>賽馬場</li>
+                    <li ><span class="fa-li"><i class="fas fa-times"></i></span>愛情摩天輪及產業鏈/li>
+                    <li ><span class="fa-li"><i class="fas fa-times"></i></span>太平洋挖石油</li>
+                    <li><span class="fa-li"><i class="fas fa-times"></i></span>老青共住</li>
+                  </ul>
+                  <a href="../sign_in/sign_in.html" class="btn btn-block btn-primary text-uppercase" onclick="Vote(0)">登入投票</a>
+                </div>
+              </div>
+            </div>
+            <!-- Plus Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">蔡英文</h5>
+                  <img class="card-price text-center candiate" src="./img/p2.png">
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>扭轉低薪</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>長照升級2.0</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>前瞻計畫</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>維持兩岸現況</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>改革年金制度</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>修正「原住民族教育法」</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>綠能研發中心</li>
+                    <li><span class="fa-li"><i class="fas fa-times"></i></span>亞洲矽谷計畫</li>
+                  </ul>
+                  <a href="../sign_in/sign_in.html" class="btn btn-block btn-primary text-uppercase" onclick="Vote(1)">登入投票</a>
+                </div>
+              </div>
+            </div>
+            <!-- Pro Tier -->
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">柯文哲</h5>
+                  <img class="card-price text-center candiate" src="./img/p3.jpg">
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>銀髮照顧</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>友善幼托</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>綠能交通</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>興建公宅</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>都市發展</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>多元文化</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>適性教育</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>永續經營</li>
+                  </ul>
+                  <a href="../sign_in/sign_in.html" class="btn btn-block btn-primary text-uppercase" onclick="Vote(2)">登入投票</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="container-fluid">
+          <hr class="featurette-divider">
+          <div class = 'blow'>
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>    
+          </div>
+        </footer>
+        
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src=""https://code.jquery.com/jquery-3.3.1.slim.min.js"><\/script>')</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./js/script.js">
+</html>
