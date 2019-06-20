@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+    font-family: 'Noto Sans TC',sans-serif;
+    font-weight:300;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (max-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 2.5rem;
+    }
+  }
+/* ------------------------------------------------------------------------ */
+.head{
+    margin-top: 50;
+}
+@media screen and (max-width: 768px){
+    .slid-size{
+        height: 300px; 
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .slid-size{
+        height: 500px; 
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+.introduce{
+    margin-top: 30;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .content {
+        font-size:0.5;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .content {
+        font-size:1.5;
+        padding:10 10;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .content {
+        font-size:3.5;
+        padding: 30 10;   
+    }   
+}
+
+
+.blow{
+    width: 65%;
+    margin-left: 17%;
+     
+}

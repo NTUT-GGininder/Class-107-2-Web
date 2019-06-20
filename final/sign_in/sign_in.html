@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Authentication</title>
+
+  <!-- Roboto Font -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-storage.js"></script>
+
+  <script src="js/jquery.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+
+<body>
+
+  <div class="container d-flex flex-column align-items-center">
+    <div class="card shadow mt-5">
+      <div class="btn-group display-4" data-toggle="buttons">
+            <label class="btn btn-light col-sm-6 " id="SignIn">
+                <input style="display:none" type="radio" name="options" > Sign In
+            </label>
+            <label class="btn btn-light col-sm-6 " id="SignUp">
+                <input style="display:none"  type="radio" name="options" > Sign Up
+            </label>
+        <!-- <button type="button" class="btn btn-light btn-xs col-sm-6 " id="btnSignIn" data-toggle="button">Sign In</button> -->
+          <!-- <button type="button" class="btn btn-light btn-xs col-sm-6 " id="btnSignUp" data-toggle="button">Sign Up</button> -->
+      </div>
+      <div class="card-body">
+        <div class="form-group row">
+          <label for="email" class="col-sm-3 col-form-label">Email:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control-plaintext" id="email" placeholder="Email">
+          </div>
+          <label for="password" class="col-sm-3 col-form-label">Password:</label>
+          <div class="col-sm-9">
+            <input type="password" class="form-control-plaintext" id="password" placeholder="Password">
+          </div>
+        </div>
+        <div class="row mt-5 px-2">
+          <button type="button" class="btn col-sm-12 btn-info shadow" id="btn">Sign Up</button>
+        </div>
+
+        <!-- Sign Information -->
+        <div class="card-text text-info mt-3" id="sign-info">No one login...</div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/script.js"></script>
+</html>
