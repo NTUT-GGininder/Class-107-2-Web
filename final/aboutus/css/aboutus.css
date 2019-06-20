@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+    font-family: 'Noto Sans TC',sans-serif;
+    font-weight:300;
+}
+
+@font-face {
+	font-family: 'Microsoft JhengHei';
+	src: url('fonts/raleway_thin-webfont.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('fonts/raleway_thin-webfont.ttf') format('tff');
+	/* Safari, Android, iOS */
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+.loading{
+    margin-top: 75;
+}
+/* ------------------------------------------------------------------------------ */
+.head{
+    margin-bottom: 10;
+    margin-top:  100; 
+    background:  url("../img/head3.jpg");
+    color:white;
+} 
+
+.block{
+  margin-top:100;
+  margin-bottom: 30; 
+}
+
+.feature_text{
+  margin-top: 30;
+}
+
+
+.features{
+  margin-top: 15;
+}
+
+
+
+.blow{
+    width: 65%;
+    margin-left: 17%;
+}
